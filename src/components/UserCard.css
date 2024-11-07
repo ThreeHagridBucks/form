@@ -1,0 +1,79 @@
+.user-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(75, 82, 88, 1);
+}
+
+.user-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-id {
+  min-width: 47px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.user {
+  display: flex;
+  gap: 15px;
+  padding: 20px 8px;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.user-email {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.todo-value {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: rgba(255, 255, 255, 1);
+  padding: 30px 110px 30px 12px;
+}
+
+@media (max-width: 620px) {
+  .user-id {
+    font-size: 12px;
+    line-height: 14.52px;
+    min-width: 37px;
+  }
+  .user {
+    padding: 14px 8px;
+    gap: 10px;
+  }
+  .user-name {
+    font-size: 12px;
+    line-height: 14.52px;
+  }
+  .user-email {
+    font-size: 10px;
+    line-height: 12.1px;
+  }
+  .todo-value {
+    font-size: 12px;
+    line-height: 14.52px;
+    padding: 20px 29px;
+  }
+  img {
+    width: 28px;
+    height: 28px;
+  }
+}
